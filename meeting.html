@@ -9,6 +9,8 @@
 </head>
 
 <body>
+
+  <div id="meeting"></div>
   <script>
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -21,7 +23,7 @@
         meetingId: url.get("meetingId"), // Get meeting id from params.
         apiKey: "721476d2-da25-4dbc-831d-2a11bd9cb2bb",
 
-        containerId: null,
+        containerId: "meeting",
         whiteboardEnabled: true,
         micEnabled: true,
         webcamEnabled: true,
